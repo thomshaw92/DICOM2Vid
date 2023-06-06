@@ -20,8 +20,10 @@ Ensure that you have the following installed:
 
 The script can be run from the command line as follows:
 
-```bash
+```
 python dicom_to_video.py --folder <path_to_dicom_folder> --output <output_filename> --orientation <orientation>
+```
+
 Arguments:
 
 --folder: Path to the directory containing the DICOM files.
@@ -29,9 +31,9 @@ Arguments:
 --orientation: The orientation of the output video. Options are 'sagittal', 'coronal', 'axial', 'sagittal_flipped', 'coronal_flipped', 'axial_flipped'.
 Example
 To convert a DICOM series to a sagittal video:
-
+```
 python dicom_to_video.py --folder ./dicom_folder --output output.mp4 --orientation sagittal
-
+```
 
 ###NB
 Some of the orientations are flipped and what not. 
