@@ -1,7 +1,6 @@
 # Dicom2Vid
 Just a tool to make DICOM folders into videos for participants etc.
-
-This is a Python script that converts a series of DICOM images to a video file.
+Output is MP4 as AVI Codec is wacky
 
 ## Prerequisites
 
@@ -12,7 +11,7 @@ Ensure that you have the following installed:
 
 ## Installation
 
-1. Clone this repository: `git clone [<repo_url>](https://github.com/thomshaw92/DICOM2Vid.git)`
+1. Clone this repository: `git clone https://github.com/thomshaw92/DICOM2Vid.git`
 2. Navigate into the cloned repository: `cd DICOM2Vid`
 3. Install the required Python packages: `pip install -r requirements.txt`
 
