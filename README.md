@@ -12,8 +12,8 @@ Ensure that you have the following installed:
 
 ## Installation
 
-1. Clone this repository: `git clone <repo_url>`
-2. Navigate into the cloned repository: `cd <repo_name>`
+1. Clone this repository: `git clone [<repo_url>](https://github.com/thomshaw92/DICOM2Vid.git)`
+2. Navigate into the cloned repository: `cd DICOM2Vid`
 3. Install the required Python packages: `pip install -r requirements.txt`
 
 ## Usage
