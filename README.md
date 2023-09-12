@@ -34,7 +34,7 @@ Arguments:
 Example
 To convert a DICOM series to a sagittal video:
 ```
-python dicom_to_video.py --folder ./dicom_folder --output output.mp4 --orientation sagittal
+python DICOM2vid.py --folder ./dicom_folder --output output.mp4 --orientation sagittal
 ```
 
 ###NB
