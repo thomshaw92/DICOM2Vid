@@ -15,6 +15,17 @@ Ensure that you have the following installed:
 2. Navigate into the cloned repository: `cd DICOM2Vid`
 3. Install the required Python packages: `pip install -r requirements.txt`
 
+### For Mac
+I needed to do 
+1) 
+```
+brew install ffmpeg
+```
+2) 
+```
+pip install opencv-python
+```
+
 ## Usage
 
 The script can be run from the command line as follows:
