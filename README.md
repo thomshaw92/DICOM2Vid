@@ -20,7 +20,7 @@ Ensure that you have the following installed:
 The script can be run from the command line as follows:
 
 ```
-python dicom_to_video.py --folder <path_to_dicom_folder> --output <output_filename> --orientation <orientation>
+python DICOM2vid.py --folder <path_to_dicom_folder> --output <output_filename> --orientation <orientation>
 ```
 
 Arguments:
