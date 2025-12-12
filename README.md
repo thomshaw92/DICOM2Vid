@@ -42,6 +42,14 @@ Arguments:
 
 --orientation: The orientation of the output video. Options are 'sagittal', 'coronal', 'axial', 'sagittal_flipped', 'coronal_flipped', 'axial_flipped'.
 
+Optional helpers:
+
+--fps: Frames per second for the output video (default 20).
+
+--start-slice / --end-slice / --slice-step: Limit or subsample the slice range before encoding (0-based indices; end is exclusive).
+
+--annotate-slices: Overlay slice numbering on each frame.
+
 Example
 To convert a DICOM series to a sagittal video:
 ```
